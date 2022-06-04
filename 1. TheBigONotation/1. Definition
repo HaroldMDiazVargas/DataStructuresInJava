@@ -1,0 +1,15 @@
+
+Classic Definition
+    Big O notation is a mathematical notation that describes the limiting behavior of a function when the argument tends towards a particular value or infinity
+
+
+We use Big O Notation  to describe the performance of an algorithm. 
+This help us to determinate if an algorithm is scalable or not. This means ¿Is this algorithm going to scale well as the input grows really large ?
+So, just because our code run quickly in our computer, doesn't mean is going to perform well when we give it a large dataset.
+
+Certain operation can be more or less costly depending of what Data Structure we use
+example:  Accessing an Array by index is super fast. But array has a fixed lenght, so if we constantly have to remove or add items we have to resize it 
+          this will be costly as the size of out input grows ver large. So is better to use Linked List
+          Linked List can grow and shrink very quickly, but accessing an element by index is slow.
+
+
